@@ -1,0 +1,88 @@
+
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #829cbc;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #e39774;
+    text-align: center;
+    justify-content: center;
+}
+
+.header h1 {
+    padding: 30px 0px 30px 0px;
+    font-style: serif;
+    font-weight: bolder;
+    color: #eeeeee;
+}
+
+.jumbotron {
+    display: flex;
+}
+
+
+.draw-button {
+    margin-left: 100px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.draw-button p {
+    padding-left: 25px;
+}
+
+.draw {
+    background-color: #f17300;
+    color: #eeeeee;
+    padding: 20px 30px 20px 30px;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.clear {
+    background-color: #f17300;
+    color: #eeeeee;
+    padding: 20px 30px 20px 30px;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+
+.container {
+    background-color: #eeeeee;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer p {
+    font-style: serif;
+    font-weight: bolder;
+}
+
